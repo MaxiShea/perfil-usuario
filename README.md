@@ -4,7 +4,9 @@ Este proyecto es una página web de perfil de usuario que incluye información b
 
 ## Instalación
 
+
 1. Clona el repositorio:
+2. npm install
    ```bash
    npm run dev
    git clone https://github.com/tuusuario/perfil-usuario.git
