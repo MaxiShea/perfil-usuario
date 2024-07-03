@@ -1,0 +1,63 @@
+.contact {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.successMessage {
+    color: green;
+    margin-bottom: 10px;
+    transition: opacity 0.3s ease;
+}
+
+
+.form {
+    width: 100%;
+    max-width: 400px;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inputField,
+.textareaField,
+.button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.textareaField {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-out;
+}
+
+.button:hover {
+    background-color: #555;
+    transform: scale(1.05); /* Ejemplo de transformación al hacer hover */
+}
